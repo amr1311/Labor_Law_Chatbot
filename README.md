@@ -3,7 +3,23 @@
 
  
 🧠 # How It Works
-The user asks a question
-The system retrieves relevant legal documents (ChromaDB)
-The retrieved context is sent to the LLM
-The model generates a grounded answer based on the context
+
+1.The user asks a question
+
+2.The system retrieves relevant legal documents (ChromaDB)
+
+3.The retrieved context is sent to the LLM
+
+4.The model generates a grounded answer based on the context
+
+🛠️ Tech Stack
+
+Python
+
+Streamlit
+
+ChromaDB
+
+HuggingFace API
+
+LLM ( Mistral)
